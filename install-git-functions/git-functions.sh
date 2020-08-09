@@ -1,8 +1,8 @@
 
 
-###############
-# GIT ALIASES #
-###############
+#################
+# GIT FUNCTIONS #
+#################
 
 # caap <MESSAGE> = commit all and push
 function caap {
