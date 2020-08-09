@@ -6,6 +6,6 @@ cat ./functions.sh >> ~/.bashrc
 echo "Added content is: "
 cat ~/.bashrc | tail -$(wc -l ./functions.sh)
 
-exec bash
+source ~/.bashrc
 
 echo "...Done!"
