@@ -5,13 +5,13 @@ sudo apt-get install git
 echo -n "Username: "
 read username
 
-echo -n "Password: "
-read -s password
+echo -n "Email: "
+read -s email
 
 echo "Setting up username..."
-git config --global user.name "John Doe"
+git config --global user.name "${username}"
 
-echo "Setting up password..."
-$ git config --global user.email johndoe@example.com
+echo "Setting up email..."
+$ git config --global user.email "${email}"
 
 echo "...done!"
