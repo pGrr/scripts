@@ -12,6 +12,6 @@ echo "Setting up username..."
 git config --global user.name "${username}"
 
 echo "Setting up email..."
-$ git config --global user.email "${email}"
+git config --global user.email "${email}"
 
 echo "...done!"
